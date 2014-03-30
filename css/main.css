@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 31, 2014, 12:39:06 AM
+    Author     : Tatu
+*/
+
+#table-container{
+    width: 28%;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
+margin: auto;
+height: 200px;
+}
+
+.carousel-indicators{
+    bottom: -13px;
+}
+.carousel-inner > .item > div{
+    margin: -38px;
+}
+
+.modal{
+    position: absolute;
+    margin: 0 auto;
+    height: 45%;
+    width: 30%;
+    overflow: auto;
+}
+
+.modal-content{
+    height: 100%;
+    width: 100%;
+}
+
+.modal-content p{
+    margin: 10px;
+}
